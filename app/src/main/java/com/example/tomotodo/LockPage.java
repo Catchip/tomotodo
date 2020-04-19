@@ -18,9 +18,6 @@ public class LockPage extends View{
 
     }
 
-    public void locks_clicked(View view){
-
-    }
 
     public void locks_long_press(View view){
 

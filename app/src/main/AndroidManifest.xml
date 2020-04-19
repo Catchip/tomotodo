@@ -12,7 +12,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".tomato_mode"></activity>
+        <activity android:name=".tomoto_mode"></activity>
+        <activity android:name=".tomato_mode" />
         <activity android:name=".Lock" />
         <activity android:name=".Showdata_Activity" />
         <activity android:name=".MainActivity">

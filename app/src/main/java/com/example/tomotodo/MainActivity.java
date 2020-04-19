@@ -38,17 +38,14 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    public void add_todo_at_root(View view){
+    public void add_todo(View view){
 
     }
 
-    public void add_todolist_at_root(View view){
+    public void add_todolist(View view){
 
     }
 
-    public void todo_be_clicked(View view){
-
-    }
 
     public void lock_mode(){
 
