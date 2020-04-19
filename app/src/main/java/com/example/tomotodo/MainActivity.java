@@ -7,12 +7,16 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import java.util.List;
+
 public class MainActivity extends AppCompatActivity {
 
+    public TodoList todolist;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        Data_Save.load_data();
     }
 
     public void switchfuction(View view){
@@ -30,13 +34,46 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent2 = new Intent(this,Lock.class);
                 startActivity(intent2);
                 break;
-            case R.id.button4:
-                Intent intent3 = new Intent(this,Mine.class);
-                startActivity(intent3);
-                break;
             default:
-                Button button = findViewById(R.id.button6);
-                button.setText("assad");
         }
+    }
+
+    public void add_todo_at_root(View view){
+
+    }
+
+    public void add_todolist_at_root(View view){
+
+    }
+
+    public void todo_be_clicked(View view){
+
+    }
+
+    public void lock_mode(){
+
+    }
+}
+
+class Todo {
+    public String name;
+    public double time;
+}
+
+class TodoList {
+    public String name;
+    public List<Todo> todos;
+    public List<TodoList> todolists;
+    public void add_todo(){
+
+    }
+    public void add_todolist(){
+
+    }
+    public void delete_todo(){
+
+    }
+    public void delete_todolist(){
+
     }
 }

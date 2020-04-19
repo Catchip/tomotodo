@@ -3,5 +3,7 @@
     <string name="button1">todos</string>
     <string name="button2">data</string>
     <string name="button3">lock</string>
-    <string name="button4">mine</string>
+    <string name="addlocktime">add</string>
+    <string name="addlist">+todolist</string>
+    <string name="addtodo">+todo</string>
 </resources>

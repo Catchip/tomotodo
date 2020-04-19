@@ -13,6 +13,7 @@ public class Showdata_Activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_showdata_);
+        draw_graph();
     }
 
     public void switchfuction(View view){
@@ -30,13 +31,10 @@ public class Showdata_Activity extends AppCompatActivity {
                 Intent intent2 = new Intent(this,Lock.class);
                 startActivity(intent2);
                 break;
-            case R.id.button4:
-                Intent intent3 = new Intent(this,Mine.class);
-                startActivity(intent3);
-                break;
             default:
-                Button button = findViewById(R.id.button6);
-                button.setText("assad");
         }
+    }
+    public void draw_graph(){
+
     }
 }

@@ -7,8 +7,13 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import java.sql.Time;
+import java.util.List;
+
 public class Lock extends AppCompatActivity {
 
+    public Locks locks;
+    public My_Timer my_timer;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -30,13 +35,40 @@ public class Lock extends AppCompatActivity {
                 Intent intent2 = new Intent(this,Lock.class);
                 startActivity(intent2);
                 break;
-            case R.id.button4:
-                Intent intent3 = new Intent(this,Mine.class);
-                startActivity(intent3);
-                break;
             default:
-                Button button = findViewById(R.id.button6);
-                button.setText("assad");
         }
     }
+
+    public void addlock(View view){
+
+    }
+
+    public void deletelock(View view){
+
+    }
+
+    public void timer_running(){
+
+    }
+}
+
+
+class Single_Lock{
+    Time start;
+    Time stop;
+}
+
+class Locks{
+    List<Single_Lock> locks;
+    public void addlock(){
+
+    }
+
+    public void deletelock(){
+
+    }
+}
+
+class My_Timer{
+
 }
