@@ -9,6 +9,9 @@ import java.util.List;
 public class LockPage extends View{
     public Button add_lock_button;
     public List<Button> Locks;
+    public Button switch_to_main;
+    public Button switch_to_lock;
+    public Button switch_to_showdata;
 
     public LockPage(Context context) {
         super(context);
@@ -20,6 +23,9 @@ public class LockPage extends View{
 
 
     public void locks_long_press(View view){
+
+    }
+    public void switch_to_any(View view){
 
     }
 }

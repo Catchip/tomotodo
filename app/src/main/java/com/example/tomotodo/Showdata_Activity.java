@@ -8,6 +8,9 @@ import android.view.View;
 import android.widget.Button;
 
 public class Showdata_Activity extends AppCompatActivity {
+    public Button switch_to_main;
+    public Button switch_to_lock;
+    public Button switch_to_showdata;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
