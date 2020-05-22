@@ -1,0 +1,1774 @@
+@startuml
+
+title __TOMOTODO's Class Diagram__\n
+
+  namespace android.arch.core {
+    class android.arch.core.R {
+    }
+  }
+  
+
+  namespace android.arch.core {
+    class android.arch.core.R {
+    }
+  }
+  
+
+  namespace android.arch.lifecycle {
+    class android.arch.lifecycle.R {
+    }
+  }
+  
+
+  namespace android.arch.lifecycle {
+    class android.arch.lifecycle.R {
+    }
+  }
+  
+
+  namespace android.arch.lifecycle {
+    namespace livedata.core {
+      class android.arch.lifecycle.livedata.core.R {
+      }
+    }
+  }
+  
+
+  namespace android.arch.lifecycle {
+    namespace livedata.core {
+      class android.arch.lifecycle.livedata.core.R {
+      }
+    }
+  }
+  
+
+  namespace android.arch.lifecycle {
+    namespace viewmodel {
+      class android.arch.lifecycle.viewmodel.R {
+      }
+    }
+  }
+  
+
+  namespace android.arch.lifecycle {
+    namespace viewmodel {
+      class android.arch.lifecycle.viewmodel.R {
+      }
+    }
+  }
+  
+
+  namespace android.support.compat {
+    class android.support.compat.R {
+    }
+  }
+  
+
+  namespace android.support.compat {
+    class android.support.compat.R {
+    }
+  }
+  
+
+  namespace android.support.constraint {
+    class android.support.constraint.R {
+    }
+  }
+  
+
+  namespace android.support.constraint {
+    class android.support.constraint.R {
+    }
+  }
+  
+
+  namespace android.support.coreui {
+    class android.support.coreui.R {
+    }
+  }
+  
+
+  namespace android.support.coreui {
+    class android.support.coreui.R {
+    }
+  }
+  
+
+  namespace android.support.coreutils {
+    class android.support.coreutils.R {
+    }
+  }
+  
+
+  namespace android.support.coreutils {
+    class android.support.coreutils.R {
+    }
+  }
+  
+
+  namespace android.support.design {
+    class android.support.design.R {
+    }
+  }
+  
+
+  namespace android.support.design {
+    class android.support.design.R {
+    }
+  }
+  
+
+  namespace android.support.fragment {
+    class android.support.fragment.R {
+    }
+  }
+  
+
+  namespace android.support.fragment {
+    class android.support.fragment.R {
+    }
+  }
+  
+
+  namespace android.support.graphics.drawable {
+    class android.support.graphics.drawable.R {
+    }
+  }
+  
+
+  namespace android.support.graphics.drawable {
+    class android.support.graphics.drawable.R {
+    }
+  }
+  
+
+  namespace android.support.graphics.drawable {
+    namespace animated {
+      class android.support.graphics.drawable.animated.R {
+      }
+    }
+  }
+  
+
+  namespace android.support.graphics.drawable {
+    namespace animated {
+      class android.support.graphics.drawable.animated.R {
+      }
+    }
+  }
+  
+
+  namespace android.support.mediacompat {
+    class android.support.mediacompat.R {
+    }
+  }
+  
+
+  namespace android.support.mediacompat {
+    class android.support.mediacompat.R {
+    }
+  }
+  
+
+  namespace android.support.transition {
+    class android.support.transition.R {
+    }
+  }
+  
+
+  namespace android.support.transition {
+    class android.support.transition.R {
+    }
+  }
+  
+
+  namespace android.support.v4 {
+    class android.support.v4.R {
+    }
+  }
+  
+
+  namespace android.support.v4 {
+    class android.support.v4.R {
+    }
+  }
+  
+
+  namespace android.support.v7.appcompat {
+    class android.support.v7.appcompat.R {
+    }
+  }
+  
+
+  namespace android.support.v7.appcompat {
+    class android.support.v7.appcompat.R {
+    }
+  }
+  
+
+  namespace android.support.v7.cardview {
+    class android.support.v7.cardview.R {
+    }
+  }
+  
+
+  namespace android.support.v7.cardview {
+    class android.support.v7.cardview.R {
+    }
+  }
+  
+
+  namespace android.support.v7.preference {
+    class android.support.v7.preference.R {
+    }
+  }
+  
+
+  namespace android.support.v7.preference {
+    class android.support.v7.preference.R {
+    }
+  }
+  
+
+  namespace android.support.v7.recyclerview {
+    class android.support.v7.recyclerview.R {
+    }
+  }
+  
+
+  namespace android.support.v7.recyclerview {
+    class android.support.v7.recyclerview.R {
+    }
+  }
+  
+
+  namespace butterknife {
+    class butterknife.R {
+    }
+  }
+  
+
+  namespace butterknife {
+    class butterknife.R {
+    }
+  }
+  
+
+  namespace cn.bmob.aar {
+    class cn.bmob.aar.R {
+    }
+  }
+  
+
+  namespace cn.bmob.aar {
+    class cn.bmob.aar.R {
+    }
+  }
+  
+
+  namespace com.app.hubert.guide {
+    class com.app.hubert.guide.R {
+    }
+  }
+  
+
+  namespace com.app.hubert.guide {
+    class com.app.hubert.guide.R {
+    }
+  }
+  
+
+  namespace com.bumptech.glide {
+    class com.bumptech.glide.R {
+    }
+  }
+  
+
+  namespace com.bumptech.glide {
+    class com.bumptech.glide.R {
+    }
+  }
+  
+
+  namespace com.bumptech.glide {
+    namespace gifdecoder {
+      class com.bumptech.glide.gifdecoder.R {
+      }
+    }
+  }
+  
+
+  namespace com.bumptech.glide {
+    namespace gifdecoder {
+      class com.bumptech.glide.gifdecoder.R {
+      }
+    }
+  }
+  
+
+  namespace com.carmelo.library {
+    class com.carmelo.library.R {
+    }
+  }
+  
+
+  namespace com.carmelo.library {
+    class com.carmelo.library.R {
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Activity {
+      class com.example.lulin.todolist.Activity.AboutActivity {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Activity {
+      class com.example.lulin.todolist.Activity.AboutActivity {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Activity {
+      class com.example.lulin.todolist.Activity.BasicActivity {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Activity {
+      class com.example.lulin.todolist.Activity.BasicActivity {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Activity {
+      class com.example.lulin.todolist.Activity.ClockActivity {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Activity {
+      class com.example.lulin.todolist.Activity.ClockActivity {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Activity {
+      class com.example.lulin.todolist.Activity.EditTodoActivity {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Activity {
+      class com.example.lulin.todolist.Activity.EditTodoActivity {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Activity {
+      class com.example.lulin.todolist.Activity.LoginActivity {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Activity {
+      class com.example.lulin.todolist.Activity.LoginActivity {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Activity {
+      class com.example.lulin.todolist.Activity.MainActivity {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Activity {
+      class com.example.lulin.todolist.Activity.MainActivity {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Activity {
+      class com.example.lulin.todolist.Activity.NewClockActivity {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Activity {
+      class com.example.lulin.todolist.Activity.NewClockActivity {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Activity {
+      class com.example.lulin.todolist.Activity.NewTodoActivity {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Activity {
+      class com.example.lulin.todolist.Activity.NewTodoActivity {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Activity {
+      class com.example.lulin.todolist.Activity.RegisterActivity {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Activity {
+      class com.example.lulin.todolist.Activity.RegisterActivity {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Activity {
+      class com.example.lulin.todolist.Activity.ScheduleActivity {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Activity {
+      class com.example.lulin.todolist.Activity.ScheduleActivity {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Activity {
+      class com.example.lulin.todolist.Activity.SettingsActivity {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Activity {
+      class com.example.lulin.todolist.Activity.SettingsActivity {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Activity {
+      class com.example.lulin.todolist.Activity.SplashActivity {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Activity {
+      class com.example.lulin.todolist.Activity.SplashActivity {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Activity {
+      class com.example.lulin.todolist.Activity.UserDataActivity {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Activity {
+      class com.example.lulin.todolist.Activity.UserDataActivity {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Adapter {
+      class com.example.lulin.todolist.Adapter.ClockRecyclerViewAdapter {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Adapter {
+      class com.example.lulin.todolist.Adapter.ClockRecyclerViewAdapter {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Adapter {
+      class com.example.lulin.todolist.Adapter.FragmentAdapter {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Adapter {
+      class com.example.lulin.todolist.Adapter.FragmentAdapter {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Adapter {
+      class com.example.lulin.todolist.Adapter.RankRecyclerViewAdapter {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Adapter {
+      class com.example.lulin.todolist.Adapter.RankRecyclerViewAdapter {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Adapter {
+      class com.example.lulin.todolist.Adapter.TodoRecyclerViewAdapter {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Adapter {
+      class com.example.lulin.todolist.Adapter.TodoRecyclerViewAdapter {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    class com.example.lulin.todolist.AppBarLayoutOverScrollViewBehavior {
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    class com.example.lulin.todolist.AppBarLayoutOverScrollViewBehavior {
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Bean {
+      class com.example.lulin.todolist.Bean.App {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Bean {
+      class com.example.lulin.todolist.Bean.App {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Bean {
+      class com.example.lulin.todolist.Bean.BaiDuVoice {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Bean {
+      class com.example.lulin.todolist.Bean.BaiDuVoice {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Bean {
+      class com.example.lulin.todolist.Bean.Clock {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Bean {
+      class com.example.lulin.todolist.Bean.Clock {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Bean {
+      class com.example.lulin.todolist.Bean.Todos {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Bean {
+      class com.example.lulin.todolist.Bean.Todos {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Bean {
+      class com.example.lulin.todolist.Bean.Tomato {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Bean {
+      class com.example.lulin.todolist.Bean.Tomato {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Bean {
+      class com.example.lulin.todolist.Bean.User {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Bean {
+      class com.example.lulin.todolist.Bean.User {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    class com.example.lulin.todolist.BuildConfig {
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    class com.example.lulin.todolist.BuildConfig {
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    class com.example.lulin.todolist.CircleImageInUsercBehavior {
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    class com.example.lulin.todolist.CircleImageInUsercBehavior {
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace DBHelper {
+      class com.example.lulin.todolist.DBHelper.MyDatabaseHelper {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace DBHelper {
+      class com.example.lulin.todolist.DBHelper.MyDatabaseHelper {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Dao {
+      class com.example.lulin.todolist.Dao.ClockDao {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Dao {
+      class com.example.lulin.todolist.Dao.ClockDao {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Dao {
+      class com.example.lulin.todolist.Dao.ToDoDao {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Dao {
+      class com.example.lulin.todolist.Dao.ToDoDao {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    class com.example.lulin.todolist.ExampleInstrumentedTest {
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    class com.example.lulin.todolist.ExampleUnitTest {
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Fragment {
+      class com.example.lulin.todolist.Fragment.ClockFragment {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Fragment {
+      class com.example.lulin.todolist.Fragment.ClockFragment {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Fragment {
+      class com.example.lulin.todolist.Fragment.RankFragment {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Fragment {
+      class com.example.lulin.todolist.Fragment.RankFragment {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Fragment {
+      class com.example.lulin.todolist.Fragment.SettingsFragment {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Fragment {
+      class com.example.lulin.todolist.Fragment.SettingsFragment {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Fragment {
+      class com.example.lulin.todolist.Fragment.StatisticFragment {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Fragment {
+      class com.example.lulin.todolist.Fragment.StatisticFragment {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Fragment {
+      class com.example.lulin.todolist.Fragment.TodoFragment {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Fragment {
+      class com.example.lulin.todolist.Fragment.TodoFragment {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Interface {
+      interface com.example.lulin.todolist.Interface.ItemTouchHelperAdapter {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Interface {
+      interface com.example.lulin.todolist.Interface.ItemTouchHelperAdapter {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Interface {
+      interface com.example.lulin.todolist.Interface.ItemTouchHelperViewHolder {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Interface {
+      interface com.example.lulin.todolist.Interface.ItemTouchHelperViewHolder {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Interface {
+      interface com.example.lulin.todolist.Interface.OnStartDragListener {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Interface {
+      interface com.example.lulin.todolist.Interface.OnStartDragListener {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    class com.example.lulin.todolist.Interpolator {
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    class com.example.lulin.todolist.Interpolator {
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    class com.example.lulin.todolist.R {
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    class com.example.lulin.todolist.R {
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Receiver {
+      class com.example.lulin.todolist.Receiver.AlarmReceiver {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Receiver {
+      class com.example.lulin.todolist.Receiver.AlarmReceiver {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Receiver {
+      class com.example.lulin.todolist.Receiver.BootUpReceiver {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Receiver {
+      class com.example.lulin.todolist.Receiver.BootUpReceiver {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Receiver {
+      class com.example.lulin.todolist.Receiver.NetworkReceiver {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Receiver {
+      class com.example.lulin.todolist.Receiver.NetworkReceiver {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Service {
+      class com.example.lulin.todolist.Service.AlarmService {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Service {
+      class com.example.lulin.todolist.Service.AlarmService {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Service {
+      class com.example.lulin.todolist.Service.ClockService {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Service {
+      class com.example.lulin.todolist.Service.ClockService {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Service {
+      class com.example.lulin.todolist.Service.FocusService {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Service {
+      class com.example.lulin.todolist.Service.FocusService {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    class com.example.lulin.todolist.SpacesItemDecoration {
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    class com.example.lulin.todolist.SpacesItemDecoration {
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Utils {
+      class com.example.lulin.todolist.Utils.BitmapUtils {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Utils {
+      class com.example.lulin.todolist.Utils.BitmapUtils {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Utils {
+      class com.example.lulin.todolist.Utils.ClockItemTouchHelperCallback {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Utils {
+      class com.example.lulin.todolist.Utils.ClockItemTouchHelperCallback {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Utils {
+      class com.example.lulin.todolist.Utils.CountDownTimer {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Utils {
+      class com.example.lulin.todolist.Utils.CountDownTimer {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Utils {
+      class com.example.lulin.todolist.Utils.FileUtils {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Utils {
+      class com.example.lulin.todolist.Utils.FileUtils {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Utils {
+      class com.example.lulin.todolist.Utils.NetWorkUtils {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Utils {
+      class com.example.lulin.todolist.Utils.NetWorkUtils {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Utils {
+      class com.example.lulin.todolist.Utils.PermissionPageUtils {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Utils {
+      class com.example.lulin.todolist.Utils.PermissionPageUtils {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Utils {
+      class com.example.lulin.todolist.Utils.PhotoUtils {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Utils {
+      class com.example.lulin.todolist.Utils.PhotoUtils {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Utils {
+      class com.example.lulin.todolist.Utils.RecyclerItemClickListener {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Utils {
+      class com.example.lulin.todolist.Utils.RecyclerItemClickListener {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Utils {
+      class com.example.lulin.todolist.Utils.SPUtils {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Utils {
+      class com.example.lulin.todolist.Utils.SPUtils {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Utils {
+      class com.example.lulin.todolist.Utils.SeekBarPreference {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Utils {
+      class com.example.lulin.todolist.Utils.SeekBarPreference {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Utils {
+      class com.example.lulin.todolist.Utils.Sound {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Utils {
+      class com.example.lulin.todolist.Utils.Sound {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Utils {
+      class com.example.lulin.todolist.Utils.TimeFormatUtil {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Utils {
+      class com.example.lulin.todolist.Utils.TimeFormatUtil {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Utils {
+      class com.example.lulin.todolist.Utils.ToDoUtils {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Utils {
+      class com.example.lulin.todolist.Utils.ToDoUtils {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Utils {
+      class com.example.lulin.todolist.Utils.ToastUtils {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Utils {
+      class com.example.lulin.todolist.Utils.ToastUtils {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Utils {
+      class com.example.lulin.todolist.Utils.TodoItemTouchHelperCallback {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Utils {
+      class com.example.lulin.todolist.Utils.TodoItemTouchHelperCallback {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Utils {
+      class com.example.lulin.todolist.Utils.TomatoUtils {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Utils {
+      class com.example.lulin.todolist.Utils.TomatoUtils {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Utils {
+      class com.example.lulin.todolist.Utils.WakeLockHelper {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Utils {
+      class com.example.lulin.todolist.Utils.WakeLockHelper {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Widget {
+      class com.example.lulin.todolist.Widget.CircleImageView {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Widget {
+      class com.example.lulin.todolist.Widget.CircleImageView {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Widget {
+      class com.example.lulin.todolist.Widget.ClockApplication {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Widget {
+      class com.example.lulin.todolist.Widget.ClockApplication {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Widget {
+      class com.example.lulin.todolist.Widget.ClockProgressBar {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Widget {
+      class com.example.lulin.todolist.Widget.ClockProgressBar {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Widget {
+      class com.example.lulin.todolist.Widget.ClockView {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Widget {
+      class com.example.lulin.todolist.Widget.ClockView {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Widget {
+      class com.example.lulin.todolist.Widget.ColorFilterToolBar {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Widget {
+      class com.example.lulin.todolist.Widget.ColorFilterToolBar {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Widget {
+      class com.example.lulin.todolist.Widget.DisInterceptNestedScrollView {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Widget {
+      class com.example.lulin.todolist.Widget.DisInterceptNestedScrollView {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Widget {
+      class com.example.lulin.todolist.Widget.RippleWrapper {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Widget {
+      class com.example.lulin.todolist.Widget.RippleWrapper {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Widget {
+      class com.example.lulin.todolist.Widget.SmileView {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace Widget {
+      class com.example.lulin.todolist.Widget.SmileView {
+      }
+    }
+  }
+  
+
+  namespace com.example.lulin.todolist {
+    namespace test {
+      class com.example.lulin.todolist.test.BuildConfig {
+      }
+    }
+  }
+  
+
+  namespace com.github.jorgecastilloprz.library {
+    class com.github.jorgecastilloprz.library.R {
+    }
+  }
+  
+
+  namespace com.github.jorgecastilloprz.library {
+    class com.github.jorgecastilloprz.library.R {
+    }
+  }
+  
+
+  namespace com.github.vipulasri.timelineview {
+    class com.github.vipulasri.timelineview.R {
+    }
+  }
+  
+
+  namespace com.github.vipulasri.timelineview {
+    class com.github.vipulasri.timelineview.R {
+    }
+  }
+  
+
+  namespace com.github.ybq.android.spinkit {
+    class com.github.ybq.android.spinkit.R {
+    }
+  }
+  
+
+  namespace com.github.ybq.android.spinkit {
+    class com.github.ybq.android.spinkit.R {
+    }
+  }
+  
+
+  namespace com.google.android.gms {
+    class com.google.android.gms.R {
+    }
+  }
+  
+
+  namespace com.google.android.gms {
+    class com.google.android.gms.R {
+    }
+  }
+  
+
+  namespace com.google.android.gms {
+    namespace appindexing {
+      class com.google.android.gms.appindexing.R {
+      }
+    }
+  }
+  
+
+  namespace com.google.android.gms {
+    namespace appindexing {
+      class com.google.android.gms.appindexing.R {
+      }
+    }
+  }
+  
+
+  namespace com.google.android.gms {
+    namespace base {
+      class com.google.android.gms.base.R {
+      }
+    }
+  }
+  
+
+  namespace com.google.android.gms {
+    namespace base {
+      class com.google.android.gms.base.R {
+      }
+    }
+  }
+  
+
+  namespace com.irozon.sneaker {
+    class com.irozon.sneaker.R {
+    }
+  }
+  
+
+  namespace com.irozon.sneaker {
+    class com.irozon.sneaker.R {
+    }
+  }
+  
+
+  namespace com.jaouan.compoundlayout {
+    class com.jaouan.compoundlayout.R {
+    }
+  }
+  
+
+  namespace com.jaouan.compoundlayout {
+    class com.jaouan.compoundlayout.R {
+    }
+  }
+  
+
+  namespace com.karumi.dexter {
+    class com.karumi.dexter.R {
+    }
+  }
+  
+
+  namespace com.karumi.dexter {
+    class com.karumi.dexter.R {
+    }
+  }
+  
+
+  namespace com.kekstudio.dachshundtablayout {
+    class com.kekstudio.dachshundtablayout.R {
+    }
+  }
+  
+
+  namespace com.kekstudio.dachshundtablayout {
+    class com.kekstudio.dachshundtablayout.R {
+    }
+  }
+  
+
+  namespace com.lai.library {
+    class com.lai.library.R {
+    }
+  }
+  
+
+  namespace com.lai.library {
+    class com.lai.library.R {
+    }
+  }
+  
+
+  namespace com.lidroid.xutils {
+    class com.lidroid.xutils.R {
+    }
+  }
+  
+
+  namespace com.lidroid.xutils {
+    class com.lidroid.xutils.R {
+    }
+  }
+  
+
+  namespace com.pl.voiceAnimation {
+    class com.pl.voiceAnimation.R {
+    }
+  }
+  
+
+  namespace com.pl.voiceAnimation {
+    class com.pl.voiceAnimation.R {
+    }
+  }
+  
+
+  namespace de.hdodenhof.circleimageview {
+    class de.hdodenhof.circleimageview.R {
+    }
+  }
+  
+
+  namespace de.hdodenhof.circleimageview {
+    class de.hdodenhof.circleimageview.R {
+    }
+  }
+  
+
+  namespace es.dmoral.toasty {
+    class es.dmoral.toasty.R {
+    }
+  }
+  
+
+  namespace es.dmoral.toasty {
+    class es.dmoral.toasty.R {
+    }
+  }
+  
+
+  namespace io.codetail.view {
+    class io.codetail.view.R {
+    }
+  }
+  
+
+  namespace io.codetail.view {
+    class io.codetail.view.R {
+    }
+  }
+  
+
+  namespace io.reactivex.android {
+    class io.reactivex.android.R {
+    }
+  }
+  
+
+  namespace io.reactivex.android {
+    class io.reactivex.android.R {
+    }
+  }
+  
+
+  namespace jp.wasabeef.glide.transformations {
+    class jp.wasabeef.glide.transformations.R {
+    }
+  }
+  
+
+  namespace jp.wasabeef.glide.transformations {
+    class jp.wasabeef.glide.transformations.R {
+    }
+  }
+  
+
+  namespace me.drakeet.materialdialog {
+    class me.drakeet.materialdialog.R {
+    }
+  }
+  
+
+  namespace me.drakeet.materialdialog {
+    class me.drakeet.materialdialog.R {
+    }
+  }
+  
+
+  namespace me.drakeet.multitype {
+    class me.drakeet.multitype.R {
+    }
+  }
+  
+
+  namespace me.drakeet.multitype {
+    class me.drakeet.multitype.R {
+    }
+  }
+  
+
+  namespace me.drakeet.support.about {
+    class me.drakeet.support.about.R {
+    }
+  }
+  
+
+  namespace me.drakeet.support.about {
+    class me.drakeet.support.about.R {
+    }
+  }
+  
+
+  namespace site.gemus.openingstartanimation {
+    class site.gemus.openingstartanimation.R {
+    }
+  }
+  
+
+  namespace site.gemus.openingstartanimation {
+    class site.gemus.openingstartanimation.R {
+    }
+  }
+  
+
+  namespace top.wefor.circularanim {
+    class top.wefor.circularanim.R {
+    }
+  }
+  
+
+  namespace top.wefor.circularanim {
+    class top.wefor.circularanim.R {
+    }
+  }
+  
+
+  com.example.lulin.todolist.Activity.LoginActivity .up.|> android.view.View.OnClickListener
+  com.example.lulin.todolist.Activity.LoginActivity .up.|> OnClickListener
+  com.example.lulin.todolist.Activity.MainActivity .up.|> NavigationView.OnNavigationItemSelectedListener
+  com.example.lulin.todolist.Activity.MainActivity .up.|> View.OnClickListener
+  com.example.lulin.todolist.Activity.MainActivity .up.|> android.support.design.widget.NavigationView.OnNavigationItemSelectedListener
+  com.example.lulin.todolist.Activity.MainActivity .up.|> android.view.View.OnClickListener
+  com.example.lulin.todolist.Activity.NewClockActivity .up.|> EventListener
+  com.example.lulin.todolist.Activity.NewClockActivity .up.|> com.baidu.speech.EventListener
+  com.example.lulin.todolist.Activity.NewTodoActivity .up.|> EventListener
+  com.example.lulin.todolist.Activity.NewTodoActivity .up.|> com.baidu.speech.EventListener
+  com.example.lulin.todolist.Activity.RegisterActivity .up.|> View.OnClickListener
+  com.example.lulin.todolist.Activity.RegisterActivity .up.|> android.view.View.OnClickListener
+  com.example.lulin.todolist.Activity.UserDataActivity .up.|> android.view.View.OnClickListener
+  com.example.lulin.todolist.Activity.UserDataActivity .up.|> View.OnClickListener
+  com.example.lulin.todolist.Adapter.ClockRecyclerViewAdapter .up.|> ItemTouchHelperAdapter
+  com.example.lulin.todolist.Adapter.ClockRecyclerViewAdapter .up.|> com.example.lulin.todolist.Interface.ItemTouchHelperAdapter
+  com.example.lulin.todolist.Adapter.TodoRecyclerViewAdapter .up.|> ItemTouchHelperAdapter
+  com.example.lulin.todolist.Adapter.TodoRecyclerViewAdapter .up.|> com.example.lulin.todolist.Interface.ItemTouchHelperAdapter
+  com.example.lulin.todolist.AppBarLayoutOverScrollViewBehavior o-- com.example.lulin.todolist.AppBarLayoutOverScrollViewBehavior.onProgressChangeListener : onProgressChangeListener
+  com.example.lulin.todolist.Bean.BaiDuVoice o-- com.example.lulin.todolist.Bean.BaiDuVoice.OriginResultBean : origin_result
+  com.example.lulin.todolist.Service.ClockService .up.|> com.example.lulin.todolist.Utils.CountDownTimer.OnCountDownTickListener
+  com.example.lulin.todolist.Service.ClockService .up.|> CountDownTimer.OnCountDownTickListener
+  com.example.lulin.todolist.Utils.CountDownTimer o-- com.example.lulin.todolist.Utils.CountDownTimer.OnCountDownTickListener : mOnCountDownTickListener
+  com.example.lulin.todolist.Utils.RecyclerItemClickListener .up.|> android.support.v7.widget.RecyclerView.OnItemTouchListener
+  com.example.lulin.todolist.Utils.RecyclerItemClickListener .up.|> RecyclerView.OnItemTouchListener
+  com.example.lulin.todolist.Utils.RecyclerItemClickListener o-- com.example.lulin.todolist.Utils.RecyclerItemClickListener.OnItemClickListener : mListener
+  com.example.lulin.todolist.Utils.SeekBarPreference .up.|> android.widget.SeekBar.OnSeekBarChangeListener
+  com.example.lulin.todolist.Utils.SeekBarPreference .up.|> SeekBar.OnSeekBarChangeListener
+
+
+right footer
+
+
+PlantUML diagram generated by SketchIt! (https://bitbucket.org/pmesmeur/sketch.it)
+For more information about this tool, please contact philippe.mesmeur@gmail.com
+endfooter
+
+@enduml
