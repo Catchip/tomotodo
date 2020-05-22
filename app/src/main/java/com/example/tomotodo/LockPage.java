@@ -1,31 +1,55 @@
 package com.example.tomotodo;
 
-import android.content.Context;
-import android.view.View;
+import android.content.Intent;
+import android.os.Bundle;
+import android.os.CountDownTimer;
 import android.widget.Button;
 
-import java.util.List;
+import androidx.appcompat.app.AppCompatActivity;
 
-public class LockPage extends View{
-    public Button add_lock_button;
-    public List<Button> Locks;
-    public Button switch_to_main;
-    public Button switch_to_lock;
-    public Button switch_to_showdata;
+import java.util.Calendar;
 
-    public LockPage(Context context) {
-        super(context);
-    }
+public class LockPage extends AppCompatActivity {
+    private Button show_end_time;
+    CountDownTimer timer;
+    Calendar calendar;
+    int end_hour;
+    int end_min;
+    boolean flag =false;
 
-    public void add_lock_button_clicked(View view){
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_lock_page);
+        Intent intent = getIntent();
 
-    }
+        String endtime = intent.getStringExtra("endtime");
+        show_end_time = (Button) findViewById(R.id.show_end_time);
+        show_end_time.setText(endtime+" to end");
+        String []hourmin = endtime.split(":");
+        end_hour = Integer.parseInt(hourmin[0]);
+        end_min = Integer.parseInt(hourmin[1]);
+        timer = new CountDownTimer(24*60*60*1000,1000) {
+            @Override
+            public void onTick(long millisUntilFinished) {
 
+                calendar = Calendar.getInstance();
+                int hour = calendar.get(Calendar.HOUR_OF_DAY);
+                int min = calendar.get(Calendar.MINUTE);
 
-    public void locks_long_press(View view){
+                if(hour==end_hour&&min ==end_min && flag == false){
+                    flag= true;
+                    Intent intent1 = new Intent(LockPage.this,MainActivity.class);
+                    startActivity(intent1);
+                }
 
-    }
-    public void switch_to_any(View view){
+            }
 
+            @Override
+            public void onFinish() {
+
+            }
+        };
+        timer.start();
     }
 }

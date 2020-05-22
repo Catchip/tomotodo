@@ -6,6 +6,14 @@
     <string name="addlocktime">add</string>
     <string name="addlist">+todolist</string>
     <string name="addtodo">+todo</string>
+    <string name="button_start">start</string>
+    <string name="button_skip">skip</string>
+    <string name="button_quit">quit</string>
+    <string name="time">time</string>
+    <string name="helper">请输入番茄钟的标题</string>
+    <string name="clock_title">Clock_Title</string>
+    <string name="helper2">StartTime</string>
+    <string name="helper3">EndTime</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
